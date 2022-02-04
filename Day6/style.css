@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(150, 58, 224);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    
+    height: 60vh;
+    width: 60vw;
+    border-radius: 10px;
+    background-color: white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img1{
+    height: 350px;
+    width:400px;
+    
+}
